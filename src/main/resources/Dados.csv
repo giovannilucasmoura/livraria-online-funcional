@@ -1,0 +1,175 @@
+#Autor
+id,nome,apelido,nacionalidade
+1,Christie Aschwanden,,Estados Unidos
+2,Sandra Harding,,Estados Unidos
+3,Robert Figueroa,,Desconhecido
+4,Gregory Zuckerman,,Estados Unidos
+5,Siddhartha Mukherjee,,India
+6,Stephen Hawking,,Estados Unidos
+7,Steven Strogatz ,,Estados Unidos
+8,Yuval Noah Harari,,Israel
+9,Rachel Carson,,Estados Unidos
+10,Charles Darwin,,Inglaterra
+11,Robert A. Day,,Estados Unidos
+12,Barbara Gastel,,Estados Unidos
+13,Philipp Dettner,,Alemanha
+14,Toby A.H. Wilkinson,,Inglaterra
+15,John Gribbin,,Inglaterra
+16,Nadine Burke Harris ,,Canadá
+17,Lisa Feldman Barrett,,Canadá
+18,Carl Sagan,,Estados Unidos
+
+#Compra
+id,data,cliente_id
+1,2021-10-05,1
+2,2021-11-07,10
+3,2021-12-25,1
+4,2021-09-01,2
+5,2021-10-08,3
+6,2021-10-09,4
+7,2021-10-20,5
+8,2021-10-26,6
+9,2021-03-12,7
+10,2021-05-09,8
+11,2021-11-10,9
+12,2021-08-11,8
+13,2021-08-03,9
+14,2021-07-02,9
+15,2021-02-06,5
+
+#Cliente
+id,nome,apelido,nacionalidade,email,senha,numeroCartaoCredito,profissao,endereco,telefone
+1,Raimundo Emanuel da Mota,,Brasil,raimundoemanueldamota@sdrifs.com.br,nrNGrLp8FN,5516 1397 9517 4855,Professor(a),Rua Francisco de Souza Matozo", 110",(84) 3505-4738
+2,Erick Caio Bernardes,,Brasil,erickcaiobernardes-73@accor.com.br,xyoqQZ2XL8,4556 6662 5581 1026,Engenheiro(a),Rua JM-35", 290",(63) 2666-4887
+3,Samuel Marcos Diego Rezende,,Brasil,samuelmarcosdiegorezend@ltecno.com.br,iUxKfHkJoZ,4539 6313 5522 5230,Professor(a),Travessa Flamengo", 969",(68) 2765-0729
+4,Iago Paulo Alexandre Brito,,Brasil,iagopauloalexandrebrito@cenia.com.br,44WUzCTOaq,6062 8278 2808 4986,Estudante(a),Rua Treze", 996",(79) 3559-0650
+5,Sônia Luana Santos,,Brasil,sonialuanasantos_@alstom.com,IoBFBC6XCW,6062 8218 2175 9108,Estudante(a),Beco Borboleta", 739",(92) 2891-8142
+6,Juan Breno Tiago Drumond,,Brasil,jjuanbrenotiagodrumond@live.com.br,ce5weOajnU,4494 5562 6206 3817,Programador(a),Rua Quintino Bocaiúva", 797",(86) 2754-2620
+7,Alana Emily das Neves,,Brasil,alanaemilydasneves-93@yahoo.com.ar,TtN2H2a7BW,5010 4016 2255 0900,Professor(a),Rua Arthur Mangabeira", 780",(67) 2768-8550
+8,Davi Samuel da Costa,,Brasil,davisamueldacosta@live.com.br,qBaJ8zA3zw,5373 1564 6649 7763,Médico(a),Rua Jaciara", 590",(65) 2985-9089
+9,Caroline Simone da Cruz,,Brasil,ccarolinesimonedacruz@hotmail.fr,8jSjYAopjq,5252 7455 0415 8209,Pesquisador(a),Caminho 47-Quadra F", 266",(71) 2841-1979
+10,Renan Lucca Ruan dos Santos,,Brasil,renanluccaruandossantos@avantii.com.br,aRMRyg5PFe,5356 6879 0001 6141,Estudante,Rua Vanias da Silva,(47) 2909-7115
+
+#Area Cientifica
+id,descricao
+1,Filosofia
+2,Matemática
+3,Psicologia
+4,História
+5,Medicina
+6,Biologia
+7,Economia
+8,Estatística
+9,Física
+10,Ciência e Pesquisa
+
+#Livro
+id,titulo,ISBN,editora,anoPublicacao,preco,dominio
+1,Good To Go,039325433X,W. W. Norton & Company,2019,14.76,5
+2,Objectivity and Diversity,022624136X,University of Chicago Press,2015,25.00,8
+3,The Emperor of All Maladies: A Biography of Cancer,1439170916,Scribner,2011,9.89,6
+4,The Man Who Solved The Market,073521798X,Portfolio,2019,17.65,7
+5,The Gene: An Intimate History,147673352X,Scribner,2017,11.98,6
+6,A Brief History of Time,9780553380163,Bantam,1998,07.02,9
+7,Infinite Powers,B07FKF9DVJ,Mariner Books,2019,13.13,2
+8,The Joy of X,B006R8PL7G,Mariner Books,2012,9.99,2
+9,Sapiens: A Brief History of Humankind,B00ICN066A,Harper,2015,12.79,6
+10,Silent Spring,618249060,Houghton Mifflin Company,2002,3.00,6
+11,On The Origin of Species,B08SG3MF9Q,Publicação independente,2020,14.99,6
+12,Brief Answers to the Big Questions,1984819194,Bantam,2018,11.25,9
+13,Cosmos,394502949,Random House,1980,14.09,9
+14,How to Write and Publish a Scientific Paper,1440842620,Greenwood,2016,61.00,10
+15,Science and Other Cultures: Issues in Philosophies of Science and Technology,415939925,Routledge ,2003,46.95,1
+16,A Shot to Save the World: The Inside Story of the Life-or-Death Race for a COVID-19 Vaccine,059342039X,Portfolio,2021,25.49,5
+17,Immune: A Journey into the Mysterious System That Keeps You Alive,593241312,Random House,2021,29.99,5
+18,The Rise and Fall of Ancient Egypt,B004FGMZAI,Random House,2011,42.88,4
+19,In Search of Schrödinger's Cat: Quantum Physics and Reality,553341030,Bantam,1984,11.47,9
+20,Early Dynastic Egypt,9780415260114,Routledge,2001,32.24,4
+21,Black Holes,B01JEMPGLM,Bantam,2016,20.26,9
+22,THE ILLUSTRATED THEORY OF EVERYTHING: The Origin and Fate of the Universe,B001B4374U,Phoenix Books,2006,20.83,9
+23,The Deepest Well: Healing the Long-Term Effects of Childhood Trauma and Adversity ,132850266X,Mariner Books,2019,68.50,5
+24,Your Immune System in a Nutshell: Explaining Everything Strange in Your Body,1633534170,Granadilla Pr,2016,50.38,5
+25,Seven and a Half Lessons About the Brain ,358157145,Mariner Books,2020,14.39,6
+
+#Livro_Autor
+livroId,autorId
+1,1
+2,2
+15,2
+15,3
+4,4
+16,4
+5,5
+6,6
+7,7
+8,7
+9,8
+10,9
+11,10
+12,6
+14,11
+14,12
+16,4
+17,13
+18,14
+19,15
+20,14
+21,6
+22,16
+23,16
+24,13
+25,17
+13,18
+
+#Compra_livros
+compra_id,livro_id
+1,20
+1,12
+1,1
+2,12
+2,10
+2,11
+2,13
+2,14
+3,15
+4,1
+4,13
+4,2
+5,11
+5,20
+6,23
+6,18
+6,20
+6,12
+6,1
+6,3
+7,25
+7,20
+7,1
+7,7
+7,8
+8,1
+8,5
+9,4
+9,25
+9,24
+9,12
+10,11
+11,7
+12,26
+12,12
+12,1
+12,18
+12,19
+12,1
+13,3
+13,9
+13,10
+13,15
+14,6
+14,17
+14,23
+14,1
+14,9
+14,12
+14,18

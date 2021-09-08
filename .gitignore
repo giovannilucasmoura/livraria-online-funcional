@@ -1,2 +1,8 @@
 *.class
 *.log
+*.iws
+
+out/
+
+**/.idea/workspace.xml
+**/.idea/tasks.xml
