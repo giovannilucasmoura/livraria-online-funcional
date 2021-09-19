@@ -27,7 +27,7 @@ object Dados {
         var linhas = csvParser(arquivo)
 
         linhas.map(linha => Map(
-            ("id" -> parser.parseLine(linha)(0).toLong),
+            ("id" -> parser.parseLine(linha)(0).toInt),
             ("nome" -> parser.parseLine(linha)(1)),
             ("apelido" -> parser.parseLine(linha)(2)),
             ("nacionalidade" -> parser.parseLine(linha)(3)),
@@ -44,7 +44,7 @@ object Dados {
         var linhas = csvParser(arquivo)
 
         linhas.map(linha => Map(
-            ("id" -> parser.parseLine(linha)(0).toLong),
+            ("id" -> parser.parseLine(linha)(0).toInt),
             ("nome" -> parser.parseLine(linha)(1)),
             ("apelido" -> parser.parseLine(linha)(2)),
             ("nacionalidade" -> parser.parseLine(linha)(3))
@@ -55,7 +55,7 @@ object Dados {
         var linhas = csvParser(arquivo)
 
         linhas.map(linha => Map(
-            ("id" -> parser.parseLine(linha)(0).toLong),
+            ("id" -> parser.parseLine(linha)(0).toInt),
             ("descricao" -> parser.parseLine(linha)(1))
         )).toList
     }
@@ -64,13 +64,13 @@ object Dados {
         var linhas = csvParser(arquivo)
 
         linhas.map(linha => Map(
-            ("id" -> parser.parseLine(linha)(0).toLong),
+            ("id" -> parser.parseLine(linha)(0).toInt),
             ("titulo" -> parser.parseLine(linha)(1)),
             ("ISBN" -> parser.parseLine(linha)(2)),
             ("editora" -> parser.parseLine(linha)(3)),
             ("anoPublicacao" -> parser.parseLine(linha)(4).toInt),
             ("preco" -> parser.parseLine(linha)(5)),
-            ("dominio" -> parser.parseLine(linha)(6).toLong)
+            ("dominio" -> parser.parseLine(linha)(6).toInt)
         )).toList
     }
 
@@ -79,9 +79,9 @@ object Dados {
         val dtf = DateTimeFormatter.ofPattern(formato_data)
 
         linhas.map(linha => Map(
-            ("id" -> parser.parseLine(linha)(0).toLong),
+            ("id" -> parser.parseLine(linha)(0).toInt),
             ("data" -> LocalDate.parse(parser.parseLine(linha)(1), dtf)),
-            ("cliente_id" -> parser.parseLine(linha)(2).toLong)
+            ("cliente_id" -> parser.parseLine(linha)(2).toInt)
         )).toList
     }
 
@@ -89,8 +89,8 @@ object Dados {
         var linhas = csvParser(arquivo)
 
         linhas.map(linha => Map(
-            ("livro_id" -> parser.parseLine(linha)(0).toLong),
-            ("autor_id" -> parser.parseLine(linha)(1).toLong)
+            ("livro_id" -> parser.parseLine(linha)(0).toInt),
+            ("autor_id" -> parser.parseLine(linha)(1).toInt)
         )).toList
     }
 
@@ -98,8 +98,8 @@ object Dados {
         var linhas = csvParser(arquivo)
 
         linhas.map(linha => Map(
-            ("compra_id" -> parser.parseLine(linha)(0).toLong),
-            ("livro_id" -> parser.parseLine(linha)(1).toLong)
+            ("compra_id" -> parser.parseLine(linha)(0).toInt),
+            ("livro_id" -> parser.parseLine(linha)(1).toInt)
         )).toList
     }
 }
