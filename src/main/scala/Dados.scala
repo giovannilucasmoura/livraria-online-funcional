@@ -1,9 +1,8 @@
 package main.scala
 
-import com.opencsv.{CSVParserBuilder, CSVReader}
+import com.opencsv.CSVParserBuilder
 
-import java.io.{FileInputStream, FileReader}
-import java.text.SimpleDateFormat
+import java.io.FileInputStream
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 import scala.io.Source;
@@ -70,7 +69,7 @@ object Dados {
             ("editora" -> parser.parseLine(linha)(3)),
             ("anoPublicacao" -> parser.parseLine(linha)(4).toInt),
             ("preco" -> parser.parseLine(linha)(5)),
-            ("dominio" -> parser.parseLine(linha)(6).toInt)
+            ("area_cientifica_id" -> parser.parseLine(linha)(6).toInt)
         )).toList
     }
 
